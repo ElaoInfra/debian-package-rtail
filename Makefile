@@ -76,7 +76,7 @@ build-package@debian-jessie:
 	    -s dir \
 	    -t deb \
 	    --deb-compression xz \
-	    -n ${PACKAGE_NAME} \
+	    -n node-${PACKAGE_NAME} \
 	    -v ${PACKAGE_VERSION} \
 	    --depends nodejs \
 	    --iteration elao${PACKAGE_REVISION_ELAO}~jessie${PACKAGE_REVISION_JESSIE} \
